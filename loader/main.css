@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.loader{    
+    margin: 10% auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border-left: 18px solid red;
+    border-right: 18px solid green;
+    border-top: 18px solid gainsboro;
+    border-bottom: 18px solid gainsboro;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
