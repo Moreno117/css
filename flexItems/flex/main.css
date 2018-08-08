@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.item:nth-child(odd){
+    background-color: coral;
+    flex: 1 2 200px;
+}
+
+.item{
+    background-color: goldenrod;
+    height: 100px;
+    width: 100px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    line-height: 100px;    
+}
